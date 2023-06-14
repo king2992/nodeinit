@@ -8,6 +8,7 @@ app.get('/getList', (req, res) => {
 
 app.get('/0114', (req, res) => {
   alert("사랑해 김밍지") 
+  alert("메롱") 
 });
 
 app.listen(3000, () => {
