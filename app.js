@@ -7,7 +7,7 @@ app.get('/getList', (req, res) => {
 });
 
 app.get('/0114', (req, res) => {
-  window.document.write('2024년 1월 14일 우리 결혼해요ㅎㅎ');  
+  document.write('2024년 1월 14일 우리 결혼해요ㅎㅎ');  
 });
 
 app.listen(3000, () => {
