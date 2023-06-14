@@ -7,7 +7,7 @@ app.get('/getList', (req, res) => {
 });
 
 app.get('/0114', (req, res) => {
-  document.write('2024년 1월 14일 우리 결혼해요ㅎㅎ');  
+  alert("사랑해 김밍지") 
 });
 
 app.listen(3000, () => {
