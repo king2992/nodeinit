@@ -1,0 +1,17 @@
+{
+  "name": "cic",
+  "version": "1.0.0",
+  "description": "Can I Coding?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "LJW",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
