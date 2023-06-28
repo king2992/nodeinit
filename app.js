@@ -17,6 +17,7 @@ app.get('/getList', (req, res) => {
   resArr.push({title : '첫 번째 게시글', content : '안녕하세요. 첫 번째 게시글입니다.'});
   resArr.push({title : '두 번째 게시글', content : '안녕하세요. 두 번째 게시글입니다.'});
   
+  console.log(resArr)
 
   res.json(resArr);
 });
