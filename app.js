@@ -6,9 +6,6 @@ app.get('/getList', (req, res) => {
   res.json({ message: 'Hello, getList!' });
 });
 
-app.get('/0114', (req, res) => {
-  res.json({ message: '사랑해 김민지 메롱', date: '24년 01월 14일 크크크' });
-});
 
 app.listen(3000, () => {
   console.log('서버가 3000번 포트에서 실행 중입니다.');
